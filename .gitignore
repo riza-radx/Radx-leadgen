@@ -1,0 +1,35 @@
+# ==== SEKRETE — kurrë në git ====
+# Tokenat dhe API key-t hyjnë VETËM në Credentials të n8n-it.
+.env
+.env.*
+*.env
+secrets/
+*.secret
+*token*.txt
+*credential*.json
+credentials.json
+
+# ==== Eksporte n8n që mund të mbajnë sekrete ====
+# Eksporti i plotë i instancës (--all) përfshin kredencialet e deshifruara.
+n8n/*credentials*
+n8n/*-full-export.json
+n8n_data/
+
+# ==== Node ====
+node_modules/
+npm-debug.log*
+package-lock.json.bak
+
+# ==== Sistem / editor ====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
+
+# ==== Të përkohshme ====
+tmp/
+temp/
+*.log
