@@ -72,7 +72,7 @@ merr një domain HTTPS të gatshëm dhe të shmang gjysmën e problemeve të Hap
 4. **Username** (duhet të përfundojë me `bot` dhe të jetë unik): p.sh. `vegasolar_leads_bot`
 5. BotFather kthen tokenin:
    ```
-   8123456789:AAF-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   <BOT_ID>:<TOKEN_SEKRET>   (formati: 10 shifra, dy pika, 35 karaktere)
    ```
    ⚠️ **Kjo është si fjalëkalim — mos e ndaj publikisht.** Ruaje.
 
